@@ -1,12 +1,13 @@
 .button {
     color: teal; 
-    border: 1px solid teal; 
+    border: thin solid teal; 
     border-radius: 10px; 
     text-decoration: none;
     width: 100%;
     display: inline-block;
     text-align: center;
-    padding: .25em;
+    padding-top: .25em;
+    padding-bottom: .25em;
     }
   
   .player-card {
@@ -21,20 +22,47 @@
     width: 49%;
   }
 
+  .outcome-card {
+    border: thin red solid;
+    text-align: center;
+    background-color: pink;
+    width: 66%;
+  }
+
+  body {
+    font-family: 'Space Mono', monospace;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
   .row {
     display: flex;
     justify-content: space-between;
+  }
+
+  .row-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mb {
+    margin-bottom: 10px;
   }
 
   .one-third {
     width: 32%;
   }
 
-  * {
-    /* border: thin red dashed; */
-    box-sizing: border-box;
+  .container {
+    width: 960px;
+    border: thin black solid;
+    padding: 1% 1%;
   }
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  /* * {
+    /* border: thin red dashed; */
+    box-sizing: border-box;
+  } */

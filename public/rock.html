@@ -6,50 +6,60 @@
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
 
-  <link rel="stylesheet" href="/my_styles.css" >
-
+  <link rel="stylesheet" href="/my_styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="row">
-    <div class="one-third">
-      <a class="button" href="/rock">
-        Play Rock
-      </a>
+  <div class="container">
+    <div class="row mb">
+      <div class="one-third">
+        <a class="button" href="/rock">
+          Play Rock
+        </a>
+      </div>
+
+      <div class="one-third">
+        <a class="button" href="/paper">
+          Play Paper
+        </a>
+      </div>
+
+      <div class="one-third">
+        <a class="button" href="/scissors">
+          Play Scissors
+        </a>
+      </div>
     </div>
 
-    <div class="one-third">
-      <a class="button" href="/paper">
-        Play Paper
-      </a>
+  <div class="row mb">
+    <div class="player-card">
+      <h2>
+        We played rock!
+      </h2>
     </div>
 
-    <div class="one-third">
-      <a class="button" href="/scissors">
-        Play Scissors
-      </a>
+    <div class="computer-card">
+      <h2>
+        They played paper!
+      </h2>
     </div>
   </div>
 
-<div class="row">
-  <div class="player-card">
-    <h2>
-      We played rock!
-    </h2>
+  <div class="row-center mb">
+    <div class="outcome-card">
+      <h2>
+        We lost!
+      </h2>
+    </div>
   </div>
 
-  <div class="computer-card">
-    <h2>
-      They played paper!
-    </h2>
+  <div class="row-center">
+      <a href="/">
+        Rules
+      </a>
   </div>
 </div>
-  <h2 style="color: red;">
-    We lost!
-  </h2>
 
-  <a href="/">
-    Rules
-  </a>
 </body>
 </html>
